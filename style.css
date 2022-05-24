@@ -1,0 +1,113 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("blendWallpaper.png");
+}
+
+.Header{
+    font-family: 'Whisper', cursive;
+    font-size:100px;
+    color:rgb(211, 167, 209);
+    margin-top:200px;
+    margin-left:70px;
+    text-transform: capitalize;
+    letter-spacing:6px; 
+    -webkit-text-stroke: 1px black; 
+    
+    
+
+    
+}
+
+.Mini{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size:50px;
+    color:rgb(134, 134, 134);
+    margin-bottom:200px;
+    margin-left:200px;
+    margin-top: -30px;
+}
+
+
+.Nav{
+  font-family:'Roboto Condensed', sans-serif;
+  margin-top: -290px;
+  margin-bottom:200px;
+  margin-left:900px;
+  word-spacing:50px;
+  font-size:24px;
+  padding:10px; 
+  color:rgb(134, 134, 134);
+  
+  
+  
+}
+
+
+
+p.groove {
+  border-style: groove;
+  border-color: rgb(211, 167, 209);
+  text-align: center;
+
+
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.project {
+  
+  text-align:center;
+  margin:auto;
+  width:250px;
+  padding:5px;
+}
+img{
+  margin:auto;
+}
+
+.work{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  gap:100px 30px;
+  padding:50px;
+  
+}
+#visit{
+  background-color: rgb(150, 134, 155);
+  border:none;
+  color:white;
+  padding: 16px 32px;
+  text-align:center;
+  text-decoration: none;
+  display:inline-block;
+  font-size:16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#visit:hover{
+  box-shadow: 0 12px 16px 0 rgb(97, 95, 95), 0 17px 50px 0 rgb(150, 140, 140) ;
+}
+
+@media screen and (max-width: 500px) {
+  .project {
+    width: 100%;
+  }
+}
+
+
+
+
+
